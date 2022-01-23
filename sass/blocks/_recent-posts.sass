@@ -1,0 +1,73 @@
+.recent-posts 
+    background: #EDF7FA
+    padding: 2.7rem 0 1.5rem 0
+    @media (max-width: $md3)
+        padding: 2.7rem 0 2.5rem 0   
+
+    &__header
+        display: flex
+        margin-bottom: 2rem
+
+    &__title 
+        flex: 1 1 auto        
+        padding-right: 2rem
+        font-size: 2.2rem	
+        @media (max-width: $md3)
+            text-align: center
+            font-size: 1.8rem        
+
+    &__view-all 
+        font-size: 1.6rem      
+        line-height: 143.75%  
+        color: #00A8CC
+        @media (max-width: $md3)
+            display: none
+
+    &__items 
+        display: flex
+        margin: 0 -1rem
+        @media (max-width: $md3)
+            display: block
+
+    &__column 
+        flex: 0 1 50%
+        padding: 0 1rem
+        margin-bottom: 1.7rem   
+
+.recent-post 	
+    height: 100%
+    background: $white-color
+    box-shadow: 0 0.4rem 1rem rgba(187, 225, 250, 0.25)
+    border-radius: 0.4rem
+    padding: 2.4rem 2.2rem
+    @media (max-width: $md3)
+        padding: 1.2rem
+
+    &__title 
+        display: inline-block
+        font-weight: bold
+        font-size: 2.6rem
+        line-height: 146.153%
+        color: $dark-color
+        margin-bottom: 1.7rem
+        transition: color 0.3s ease 0s
+        @media(any-hover: hover)
+            &:hover
+                color: $red-color
+        @media (max-width: $md3)
+            font-size: 2.2rem
+            margin-bottom: 1.2rem
+
+    &__info 
+        font-size: 1.8rem
+        line-height: 144.444%
+        margin-bottom: 1.1rem
+        span
+            margin: 0 2.6rem
+            @media (max-width: $md1)
+                margin: 0 1rem
+        @media (max-width: $md2)
+            font-size: 1.6rem
+
+
+    

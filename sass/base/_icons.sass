@@ -1,0 +1,44 @@
+@font-face 
+    font-family: 'icons'
+    src:  url('../icons/icons.eot?nn3gwt')
+    src:  url('../icons/icons.eot?nn3gwt#iefix') format('embedded-opentype'),
+    url('../icons/icons.ttf?nn3gwt') format('truetype'),
+    url('../icons/icons.woff?nn3gwt') format('woff'),
+    url('../icons/icons.svg?nn3gwt#icons') format('svg')
+    font-weight: normal
+    font-style: normal
+    font-display: block
+
+
+%ic 
+	font-family: "icons"
+	font-style: normal
+	font-weight: normal
+	font-variant: normal
+	text-transform: none
+	line-height: 1
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+
+[class^="_icon-"],
+[class*=" _icon-"] 
+	&:before 
+		@extend %ic
+		display: block
+
+
+._icon-facebook:before 
+    content: "\e90f"
+
+._icon-instagram:before 
+    content: "\e912"
+
+._icon-linkedin:before 
+    content: "\e913"
+
+._icon-twitter:before 
+    content: "\e919"
+
+
+

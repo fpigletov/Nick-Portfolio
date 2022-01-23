@@ -1,0 +1,60 @@
+.header
+    &__item
+        &.active
+            color: $red-color
+
+.blog
+    padding-bottom: 8.5rem 
+    @media (max-width: $md3)
+        padding-bottom: 3rem 
+
+    &__title
+        margin-bottom: 5.5rem
+        @media (max-width: $md3)
+            margin-bottom: 2.5rem
+
+    &__items 
+
+    &__item 
+        padding-bottom: 3rem
+        margin-bottom: 3rem
+        border-bottom: 0.1rem solid #E0E0E0
+        &:last-child
+            margin-bottom: 0
+
+    &__name
+        display: inline-block
+        font-weight: 500
+        font-size: 3rem
+        line-height: 120%
+        color: $dark-color
+        margin-bottom: 1.2rem
+        transition: color 0.3s ease 0s
+        @media (max-width: $md3)
+            font-size: 2.6rem
+            margin-bottom: 1.2rem
+        @media (any-hover: hover)
+            &:hover
+                color: $red-color
+
+    &__info 
+        display: flex
+        font-size: 2rem
+        line-height: 145%
+        margin-bottom: 1.5rem
+        @media (max-width: $md3)
+            font-size: 1.6rem
+            margin-bottom: 1.7rem
+
+    &__date
+        
+
+    &__devider 
+        margin: 0 2rem
+        @media (max-width: $md3)
+            margin: 0 1.5rem
+
+    &__category 
+        color: #8695A4
+
+    &__text 

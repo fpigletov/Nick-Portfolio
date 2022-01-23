@@ -1,0 +1,48 @@
+.hello 
+    padding: 3.3rem 0 7.1rem 0
+    @media (max-width: $md2)
+        padding: 0 0 5.9rem 0
+
+    &__container 
+        display: flex
+        @media (max-width: $md3)
+            flex-direction: column-reverse
+            text-align: center
+            align-items: center
+
+    &__content 
+        flex: 1 1 auto
+        padding: 1rem 11rem 0 0
+        align-items: flex-start
+        @media (max-width: $md1)
+            padding-right: 5rem
+        @media (max-width: $md3)
+            padding: 0
+
+    &__title       
+        margin-bottom: 2rem
+        @media (max-width: $md4)  
+            margin-bottom: 1.5rem
+            font-size: 2.8rem
+
+    &__text 
+        margin-bottom: 2.5rem
+    
+    &__image 
+        flex: 0 0 24.3rem
+        height: 24.3rem
+        overflow: hidden
+        border-radius: 50%
+        box-shadow: -0.5rem 1.3rem 0 0 #EDF7FA
+        img                
+            width: 100%
+            height: 100%
+            object-fit: cover
+        @media (max-width: $md2) 
+            flex: 0 0 17rem
+            height: 17rem
+        @media (max-width: $md3)            
+            width: 17rem            
+            margin-bottom: 4rem
+            
+            
